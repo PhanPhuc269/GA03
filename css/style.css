@@ -6972,43 +6972,13 @@ label {
   margin-bottom: 100px;
 }
 
-.contact_info .info_item {
-  position: relative;
-  padding-left: 45px;
-}
-.contact_info .info_item i {
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 20px;
-  line-height: 24px;
-  color: #ffba00;
-  font-weight: 600;
-}
-.contact_info .info_item h6 {
-  font-size: 16px;
-  line-height: 24px;
-  color: "Roboto", sans-serif;
-  font-weight: bold;
-  margin-bottom: 0px;
-  color: #222222;
-}
-.contact_info .info_item h6 a {
-  color: #222222;
-}
-.contact_info .info_item p {
-  font-size: 14px;
-  line-height: 24px;
-  padding: 2px 0px;
-}
-
 .contact_form .form-group {
   margin-bottom: 10px;
 }
 .contact_form .form-group .form-control {
   font-size: 13px;
   line-height: 26px;
-  color: #999;
+  color: #0ee94c;
   border: 1px solid #eeeeee;
   font-family: "Roboto", sans-serif;
   border-radius: 0px;
@@ -7080,6 +7050,44 @@ label {
 }
 .modal-message .modal-dialog .modal-content .modal-header p {
   display: block;
+}
+
+.contact_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact_info {
+  margin-left: 50px; /* Điều chỉnh giá trị này theo ý muốn */
+}
+
+.contact_form {
+  flex: 2;
+  min-width: 300px;
+}
+
+form .form-group {
+  margin-bottom: 15px;
+}
+
+textarea {
+  resize: none;
+}
+
+.primary-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.primary-btn:hover {
+  background-color: #0056b3;
 }
 
 /* End Contact Success and error Area css
